@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 18th Birthday Zahra!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="click-instruction">Click the envelope to open your birthday card!</h2>
+
+    <!-- Closed envelope to click -->
+    <div id="envelope" class="envelope">
+        <img src="777.jpeg" alt="Closed Envelope" class="envelope-image">
+    </div>
+
+    <!-- Birthday card initially hidden -->
+    <div class="card" id="birthday-card" style="display: none;">
+        <!-- Add an image at the top -->
+        <img src="1234.jpeg" alt="Birthday Celebration" class="card-image">
+
+        <!-- Add GIFs on either side of the heading -->
+        <div class="gif-container">
+            <img src="ca5f7279fac547e0804c8341af9e2e6c.gif" alt="Left GIF" class="birthday-gif">
+            <h1>Happy Birthday!</h1>
+            <img src="ca5f7279fac547e0804c8341af9e2e6c.gif" alt="Right GIF" class="birthday-gif">
+        </div>
+
+        <p>You're the best friend anyone could ever ask for!</p>
+        <p>I genuinely dont think I deserve a friend like you.</p>
+        <p>I love you so much and I'm gonna miss you next year D:</p>
+        <br><br/>
+        <p>Love,</p>
+        <p>Anaika</p>
+    </div>
+
+    <!-- Confetti element -->
+    <div id="confetti" class="confetti" style="display: none;"></div>
+
+    <script src="card.js"></script>
+</body>
+</html>
